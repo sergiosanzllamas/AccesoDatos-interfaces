@@ -1,0 +1,13 @@
+
+public class TablaEnteros {
+	//Datos
+int[] tabla;
+//Metodos
+public TablaEnteros(){
+	tabla=new int[4];
+	tabla[0]=20;
+	tabla[1]=8;
+	tabla[2]=31;
+	tabla[3]=56;
+}
+}

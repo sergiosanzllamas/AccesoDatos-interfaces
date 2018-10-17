@@ -1,0 +1,19 @@
+
+public class Persona {
+String nombre[]= {"sergio"};
+String apellidos[]= {"Sanz Llamas"};
+Nif dni=new Nif();
+public static String Todo(Persona persona) {
+	System.out.println(persona.nombre);
+	
+	return null;
+	
+}
+public static void FNacimiento() {
+	
+}
+public static void NIFanterior() {
+	
+}
+
+}

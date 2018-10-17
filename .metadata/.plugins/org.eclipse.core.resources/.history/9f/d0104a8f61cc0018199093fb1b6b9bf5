@@ -1,0 +1,21 @@
+import java.util.*;
+
+import javax.annotation.processing.SupportedSourceVersion;
+
+public class Captura {
+
+	public static void main(String[] args) {
+		try {
+			Scanner scan = new Scanner(System.in);
+			int numero;
+			System.out.println("introduce un numero: ");
+			numero = scan.nextInt();
+			System.out.printf("el cuadrado de yu numero es: %d", numero * numero);
+
+		} catch (InputMismatchException ex) {
+			System.out.println("ERROR: "+ ex.getMessage());
+		}catch(NoSuchElementException ex){
+			System.out.println("ERROR: "+ ex.getMessage());
+		}
+	}
+}

@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class Captura {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+	int numero;
+		System.out.println("introduce un numero: ");
+	numero=scan.nextInt();
+	System.out.printf("el cuadrado de yu numero es: %d"+numero*numero);
+
+	}
+
+}

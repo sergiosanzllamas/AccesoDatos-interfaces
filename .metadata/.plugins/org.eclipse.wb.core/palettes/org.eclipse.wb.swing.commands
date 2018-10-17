@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<addCategory
+		id="custom_1537260811073"
+		name="calendar"
+		description=""
+		visible="true"
+		open="true"
+		nextCategory="org.eclipse.wb.swing.system"/>
+	<addComponent
+		id="com.toedter.calendar.JDayChooser_1537260877696"
+		name="JDayChooser"
+		description="Custom component: com.toedter.calendar.JDayChooser"
+		visible="true"
+		class="com.toedter.calendar.JDayChooser"
+		category="custom_1537260811073"/>
+	<addComponent
+		id="com.toedter.calendar.JMonthChooser_1537260877696"
+		name="JMonthChooser"
+		description="Custom component: com.toedter.calendar.JMonthChooser"
+		visible="true"
+		class="com.toedter.calendar.JMonthChooser"
+		category="custom_1537260811073"/>
+	<addComponent
+		id="com.toedter.components.JLocaleChooser_1537260877696"
+		name="JLocaleChooser"
+		description="Custom component: com.toedter.components.JLocaleChooser"
+		visible="true"
+		class="com.toedter.components.JLocaleChooser"
+		category="custom_1537260811073"/>
+	<addComponent
+		id="com.toedter.calendar.JCalendar_1537260877696"
+		name="JCalendar"
+		description="Custom component: com.toedter.calendar.JCalendar"
+		visible="true"
+		class="com.toedter.calendar.JCalendar"
+		category="custom_1537260811073"/>
+	<addComponent
+		id="com.toedter.calendar.JDateChooser_1537260877696"
+		name="JDateChooser"
+		description="Custom component: com.toedter.calendar.JDateChooser"
+		visible="true"
+		class="com.toedter.calendar.JDateChooser"
+		category="custom_1537260811073"/>
+	<addComponent
+		id="com.toedter.components.JSpinField_1537260877696"
+		name="JSpinField"
+		description="Custom component: com.toedter.components.JSpinField"
+		visible="true"
+		class="com.toedter.components.JSpinField"
+		category="custom_1537260811073"/>
+	<addComponent
+		id="com.toedter.calendar.JYearChooser_1537260877696"
+		name="JYearChooser"
+		description="Custom component: com.toedter.calendar.JYearChooser"
+		visible="true"
+		class="com.toedter.calendar.JYearChooser"
+		category="custom_1537260811073"/>
+	<moveEntry
+		id="org.eclipse.wb.swing.components javax.swing.JList"
+		category="org.eclipse.wb.swing.components"
+		nextEntry="org.eclipse.wb.swing.components javax.swing.JEditorPane"/>
+</commands>

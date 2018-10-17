@@ -1,0 +1,19 @@
+
+public class TablaTradicional {
+	
+	public static void imprimir(int[]tabla) {
+	for(int i=0;i<4;i++)
+		System.out.println(tabla[i]);
+}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//v1.utilizando progrmacion estructurada 
+		int[] tabla= {12,20,45,60};
+imprimir(tabla);
+//v2 utilizando POO
+TablaEnteros hija=new TablaEnteros();
+hija.imprimir();
+	}
+
+}
